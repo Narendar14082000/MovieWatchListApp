@@ -1,0 +1,103 @@
+.main-container {
+    display: flex;
+    background-color: #121212;
+    color: #e0e0e0;
+    min-height: 100vh;
+  }
+  
+  .content {
+    margin-left: 250px; /* Adjusted to account for the fixed sidebar width */
+    padding: 20px;
+    width: calc(100% - 250px); /* Adjusted to account for the fixed sidebar width */
+    box-sizing: border-box;
+  }
+  
+  .details-container {
+    background-color: #7549b364;
+    padding: 40px; /* Adjusted padding */
+    margin: 50px;
+    margin-left: 50px; /* Corrected margin-left */
+    padding-left: 20px; /* Adjusted padding-left */
+    border-radius: 20px; /* Added border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    align-content: center;
+  }
+  
+  .details-container h2 {
+    color: #ffa726;
+    margin-bottom: 20px;
+    font-size: 3.5em; /* Increased font size */
+  }
+  
+  .details-container p {
+    margin: 10px 0;
+    font-size: 1.6em; /* Increased font size */
+  }
+  
+  .rating-container {
+    margin: 20px 0;
+   
+  }
+  .stars{
+    font-size: 2.6em;
+  }
+  
+  textarea {
+    width: 100%;
+    max-width: 100%; /* Removed max-width restriction */
+    min-height: 100px; /* Increased minimum height */
+    padding: 15px;
+    border: 1px solid #666;
+    border-radius: 15px; /* Added border-radius */
+    background-color: #333;
+    color: white;
+    font-size: 1.1em; /* Increased font size */
+    margin-top: 20px;
+    resize: vertical; /* Allow vertical resizing */
+    overflow-y: auto; /* Show scrollbar when content exceeds height */
+  }
+  
+  button {
+    padding: 12px 24px; /* Increased padding */
+    border: none;
+    cursor: pointer;
+    background-color: #b07d30;
+    color: white;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    font-size: 1.1em; /* Increased font size */
+    border-radius: 0; /* Removed border-radius */
+  }
+  
+  button:hover {
+    background-color: #fb8c00;
+  }
+  
+  .icon-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .link-group {
+    margin-top: 30px; /* Increased margin-top */
+    display: flex;
+    gap: 15px; /* Increased gap */
+  }
+  
+  .link-group a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em; /* Increased font size */
+    transition: color 0.3s;
+  }
+  
+  .link-group a:hover {
+    color: #ffa726;
+  }
+  
+  .not-found {
+    margin: auto;
+    color: white;
+    font-size: 2em; /* Increased font size */
+  }
+  

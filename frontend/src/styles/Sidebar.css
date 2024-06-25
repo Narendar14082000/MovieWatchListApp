@@ -1,0 +1,107 @@
+.sidebar {
+    width: 250px;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .sidebar-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #d71111;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    border-radius: 3px;
+  }
+  
+  .sidebar-link:hover {
+    background-color: #ff4500;
+  }
+  
+  .sidebar-icon {
+    margin-right: 10px;
+  }
+  
+  .filter-section {
+    margin-top: 20px;
+  }
+  
+  .filter-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .filter-section div {
+    margin-bottom: 10px;
+  }
+  
+  .filter-section label {
+    margin-right: 10px;
+  }
+  
+  .filter-section input[type='checkbox'] {
+    margin-right: 5px;
+  }
+  
+  .filter-section input[type='text'] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  .filter-section button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .filter-section button:hover {
+    background-color: #d71111;
+  }
+  
+  hr {
+    border: 0.5px solid #444;
+    margin: 20px 0;
+  }
+
+  .sidebyside {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the checkbox and label */
+  }
+  
+  .sidebyside input[type="checkbox"] {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .sidebyside label {
+    margin: 0; /* Remove default margin */
+  }
+  
+  
