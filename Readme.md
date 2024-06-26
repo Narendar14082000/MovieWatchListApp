@@ -55,7 +55,7 @@ movie-watchlist-app/
 
 The Movie Watchlist App is deployed on Vercel. You can access the live demo at the following link:
 
-[Live Demo](https://your-vercel-deployment-url.vercel.app)
+[Live Demo](https://movie-watch-list-app.vercel.app/)
 
 ## Deployment
 
